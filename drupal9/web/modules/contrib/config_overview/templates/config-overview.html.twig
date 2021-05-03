@@ -1,0 +1,53 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display informations about the config overview.
+ *
+ * Available variables:
+ * - img_yes: Path to the yes.png image.
+ * - img_no: Path to the no.png image.
+ *
+ * @see template_preprocess_config_overview()
+ *
+ * @ingroup themeable
+ */
+#}
+<table>
+  <tr>
+    <td>
+      <h3>{% trans %}Overridden column:{% endtrans %}</h3>
+      <ul style="list-style-type: none;">
+        <li>
+          <img src="{{ img_no }}" alt="No" /> {% trans %}configuration is not overridden.{% endtrans %}
+        </li>
+        <li>
+          <img src="{{ img_yes }}" alt="Yes" /> {% trans %}configuration is overridden.{% endtrans %}
+        </li>
+      </ul>
+    </td>
+    <td>
+      <h3>{% trans %}Synchronized column:{% endtrans %}</h3>
+      <ul style="list-style-type: none;">
+        <li>
+          <img src="{{ img_no }}" alt="No" /> {% trans %}configuration is synchronized.{% endtrans %}
+        </li>
+        <li>
+          <img src="{{ img_yes }}" alt="Yes" /> {% trans %}configuration is excluded.{% endtrans %}
+        </li>
+      </ul>
+    </td>
+    {% if display_protected_column_description == true %}
+    <td>
+      <h3>{% trans %}Protected on import column:{% endtrans %}</h3>
+      <ul style="list-style-type: none;">
+        <li>
+          <img src="{{ img_no }}" alt="No" /> {% trans %}configuration is not protected from import.{% endtrans %}
+        </li>
+        <li>
+          <img src="{{ img_yes }}" alt="Yes" /> {% trans %}configuration is protected from import.{% endtrans %}
+        </li>
+      </ul>
+    </td>
+    {% endif %}
+  </tr>
+</table>

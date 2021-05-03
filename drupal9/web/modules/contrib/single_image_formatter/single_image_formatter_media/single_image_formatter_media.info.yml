@@ -1,0 +1,13 @@
+name: 'Single Media Thumbnail Formatter'
+type: module
+description: 'Provides formatter for media that displays only first value of multi-valued media field'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'Media'
+dependencies:
+  - drupal:media
+
+# Information added by Drupal.org packaging script on 2020-05-25
+version: '8.x-1.6'
+project: 'single_image_formatter'
+datestamp: 1590393268

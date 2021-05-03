@@ -1,0 +1,15 @@
+config_overview.admin_page:
+  path: '/admin/config/config-overview'
+  defaults:
+    _controller: '\Drupal\config_overview\Controller\ConfigOverviewController::content'
+    _title: 'Config Overview'
+  requirements:
+    _permission: 'access config overview'
+
+config_overview.overrides:
+  path: '/admin/config/config-overview/overrides/{config_name}'
+  defaults:
+    _controller: '\Drupal\config_overview\Controller\ConfigOverviewController::overrides'
+    config_name: NULL
+  requirements:
+    _permission: 'access config overview'

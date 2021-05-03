@@ -1,0 +1,4 @@
+access config overview:
+  title: 'Access Config Overview'
+  description: 'Access Config Overview page.'
+  restrict access: 'TRUE'

@@ -1,0 +1,16 @@
+{
+  "name": "drupal/config_overview",
+  "type": "drupal-module",
+  "description": "Display an overview of configuration status.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/config_overview",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/config_overview",
+    "source": "http://cgit.drupalcode.org/config_overview"
+  },
+  "require": {
+      "drupal/config_override_warn": "^1.2"
+  }
+}

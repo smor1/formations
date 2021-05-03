@@ -1,0 +1,13 @@
+name: 'Configuration Overview'
+type: module
+description: 'Display an overview of configuration states.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'Administration'
+dependencies:
+  - config_override_warn:config_override_warn
+
+# Information added by Drupal.org packaging script on 2021-01-22
+version: '2.0.2'
+project: 'config_overview'
+datestamp: 1611310969

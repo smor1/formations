@@ -1,0 +1,7 @@
+config_overview.admin_page:
+  title: 'Config overview'
+  description: 'Config overview admin page.'
+  route_name: 'config_overview.admin_page'
+  menu_name: 'admin'
+  parent: 'system.admin_config'
+  weight: '-100'
