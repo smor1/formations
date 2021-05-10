@@ -1,0 +1,30 @@
+<div class="col-xs-12">
+  <h2>Mes appareils</h2>
+  <!-- le pipe async permet du chargement des données asynchrones, si les données mettent du temps à arriver car cela provient d'un observable ou d'une promesse, le navigateur ne generera pas d'erreur -->
+  <p>Mise à jour : {{ lastUpdate | async | date: 'short' | uppercase }}</p>
+  <ul class="list-group">
+    <app-appareil *ngFor="let appareil of appareils; let i = index"
+                  [indexOfAppareil]="i"
+                  [appareilName]="appareil.name"
+                  [appareilStatus]="appareil.status"
+                  [id]="appareil.id">
+    </app-appareil>
+  </ul>
+  <!-- ajouter un statement typescript ( [disabled] pour lequel la bouton sera desactivé
+ even binding liaison par evenement ( aller du html vers le code typescript )
+  pour lier à une proprieté on utlise les crochets
+  pour se lier à un evenement du dom on utilise les parenthèeses
+  -->
+  <div class="mt-2">
+    <button class="btn btn-success"
+            [disabled]="!isAuth"
+            (click)="onTurnOn()">Tout allumer
+    </button>
+    <button class="btn btn-danger ml-2"
+            [disabled]="!isAuth"
+            (click)="onSwitchOff()">Tout éteindre
+    </button>
+    <button class="btn btn-success" (click)="onSave()">Enregistrer</button>
+    <button class="btn btn-success" (click)="onFetch()">Charger</button>
+  </div>
+</div>

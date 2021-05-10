@@ -1,0 +1,13 @@
+<div class="post-content">
+  <div class="d-flex align-items-center justify-content-between">
+    <h4>{{ title }}</h4>
+    <span class="ml-2"> {{ date | date: 'short' }}</span>
+  </div>
+  <p *ngIf="loveIts > 0" class="badge badge-secondary">😍 : {{ loveIts}}</p>
+  <p>{{ content }}</p>
+
+  <button class="btn btn-success" (click)="postLove()" >Love it!</button>
+  <button class="btn btn-danger ml-2" (click)="postDontLove()">don't love it!</button>
+
+  <button class="btn btn-danger float-right" (click)="deletePost(post)">Supprimer post</button>
+</div>

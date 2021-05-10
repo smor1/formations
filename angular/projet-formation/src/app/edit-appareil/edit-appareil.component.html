@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-sm-8 col-sm-offset-2">
+    <!--  #formulaire => réference locale qui permet a angular de faire reference à un element du dom depuis le dom -->
+    <form (ngSubmit)="onSubmit(formulaire)" #formulaire="ngForm">
+      <div class="form-group">
+        <label for="name">Nom de l'appareil</label>
+        <input type="text" id="name" class="form-control" name="name" ngModel required>
+      </div>
+      <div class="form-group">
+        <label for="status">Etat de l'appareil</label>
+        <select id="status" class="form-control" name="status" [ngModel]="defaultOnOff">
+          <option value="allumé">Allumé</option>
+          <option value="éteint">Eteint</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary" [disabled]="formulaire.invalid">Enregistrer</button>
+    </form>
+  </div>
+</div>
+

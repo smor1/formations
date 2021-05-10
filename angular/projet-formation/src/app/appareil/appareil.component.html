@@ -1,0 +1,24 @@
+<li [ngClass]="{'list-group-item': true,
+'list-group-item-success': appareilStatus === 'allumé',
+'list-group-item-danger': appareilStatus === 'éteint'
+}">
+
+  <!-- ngif de meme que ngfor sont des directives structurelles -->
+  <!-- directives par attribut ngModel ngStyle ngClass -->
+
+  <div class="appareil-status" *ngIf="appareilStatus === 'éteint'"></div>
+  <!-- interpolation de la variable appareilName presente dans le appareil.component.ts -->
+  <!-- interpolation de la methode getStatus permet de recupérer le statut de l'appareil -->
+  <h4 [ngStyle]="{color: getColor()}">Appareil : {{ appareilName }} -- Statut : {{ getStatus() }}</h4>
+  <a [routerLink]="[id]">Detail</a>
+  <!-- lier à la proprieté et à l'evenement en meme temps => two way binding
+   event biding and property binding combine here
+   Le two-way binding emploie le mélange des syntaxes de property binding et d'event binding : des crochets et des parenthèses  [()]
+   -->
+  <button class="btn btn-success" (click)="onTurnOnOne()" [disabled]="appareilStatus === 'allumé'">
+    Allumer
+  </button>
+  <button class="btn btn-danger" (click)="onTurnOffOne()" [disabled]="appareilStatus === 'éteint'">
+    Eteindre
+  </button>
+</li>

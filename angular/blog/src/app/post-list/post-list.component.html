@@ -1,0 +1,10 @@
+<div style="max-width: 1440px; margin: auto">
+  <app-post-item-component
+    *ngFor="let post of posts"
+    [title]="post.title"
+    [content]="post.content"
+    [date]="post.createdAt"
+    [loveIts]="post.loveIts"
+    [post]="post"
+  ></app-post-item-component>
+</div>

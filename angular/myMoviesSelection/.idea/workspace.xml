@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee73b038-c89b-415d-afdc-37f0cd26ff4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/models/Movie.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1k9COVZT2SrQ54SZJ8eVmZH9I2I" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="E2E Tests (myMoviesSelection)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee73b038-c89b-415d-afdc-37f0cd26ff4d" name="Default Changelist" comment="" />
+      <created>1605103388737</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605103388737</updated>
+      <workItem from="1605103390064" duration="22722000" />
+      <workItem from="1605136799861" duration="641000" />
+      <workItem from="1605179226640" duration="172000" />
+      <workItem from="1605186420564" duration="1683000" />
+      <workItem from="1605267518736" duration="1796000" />
+      <workItem from="1606069234097" duration="9972000" />
+      <workItem from="1606256896754" duration="730000" />
+      <workItem from="1606427078936" duration="2481000" />
+      <workItem from="1606471763713" duration="37000" />
+      <workItem from="1606774291259" duration="2358000" />
+      <workItem from="1606821226844" duration="598000" />
+      <workItem from="1607037670738" duration="2251000" />
+      <workItem from="1607076933280" duration="596000" />
+      <workItem from="1607333467126" duration="599000" />
+      <workItem from="1610925736496" duration="60000" />
+      <workItem from="1610925838484" duration="192000" />
+      <workItem from="1612563139160" duration="610000" />
+      <workItem from="1612907898193" duration="3015000" />
+      <workItem from="1612952349506" duration="1419000" />
+      <workItem from="1614293160061" duration="2659000" />
+      <workItem from="1615503693036" duration="2775000" />
+      <workItem from="1615802904350" duration="796000" />
+      <workItem from="1615892990282" duration="598000" />
+      <workItem from="1615974596705" duration="598000" />
+      <workItem from="1616195420508" duration="1677000" />
+      <workItem from="1618158276579" duration="3021000" />
+      <workItem from="1618264894137" duration="636000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

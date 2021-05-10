@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="/home/shared/op4-message-broker" value="PREVIEW" />
+        <entry key="/home/shared/poc-message-broker/op4-message-broker" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+</project>
